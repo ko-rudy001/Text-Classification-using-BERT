@@ -1,1 +1,24 @@
 
+The dataset (News Category Dataset) was taken from Kaggle and it contains around 210k news headlines from 2012 to 2022.
+Each record in the dataset consists of the following attributes:
+•	category: category in which the article was published.
+•	headline: the headline of the news article.
+•	authors: list of authors who contributed to the article.
+•	link: link to the original news article.
+•	short_description: Abstract of the news article.
+•	date: publication date of the article.
+
+There are a total of 42 news categories in the dataset.
+
+For simplicity and to avoid imbalanced data, we trimmed it down to 3 attributes, and a total of only 5 categories.
+Attributes:
+•	category: category in which the article was published.
+•	headline: the headline of the news article.
+•	short_description: Abstract of the news article.
+
+Categories:
+•	U.S. NEWS			1377 samples.
+•	ENVIRONMENT		1444 samples.
+•	ARTS & CULTURE		1339 samples.
+•	GOOD NEWS			1398 samples.
+•	FIFTY				1401 samples.
